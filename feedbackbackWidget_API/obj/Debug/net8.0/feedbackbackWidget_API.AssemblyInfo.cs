@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("feedbackbackWidget_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+754277cf7efdd46fbb05c39044d89821125b9f52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77314417f48ac29c156c0af752a4d17cbc1408dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("feedbackbackWidget_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("feedbackbackWidget_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

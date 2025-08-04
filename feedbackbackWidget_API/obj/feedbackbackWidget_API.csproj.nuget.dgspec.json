@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj": {}
+    "C:\\FeedbackAPI\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj": {}
   },
   "projects": {
-    "C:\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj": {
+    "C:\\FeedbackAPI\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj",
+        "projectUniqueName": "C:\\FeedbackAPI\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj",
         "projectName": "feedbackbackWidget_API",
-        "projectPath": "C:\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj",
-        "packagesPath": "C:\\Users\\Mohamednainar\\.nuget\\packages\\",
-        "outputPath": "C:\\feedback-widget-api\\feedbackbackWidget_API\\obj\\",
+        "projectPath": "C:\\FeedbackAPI\\feedback-widget-api\\feedbackbackWidget_API\\feedbackbackWidget_API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\FeedbackAPI\\feedback-widget-api\\feedbackbackWidget_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohamednainar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,15 +45,27 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.13.0, )"
             }
           },
           "imports": [
@@ -75,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
