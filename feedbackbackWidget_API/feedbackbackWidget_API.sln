@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "feedbackbackWidget_API", "feedbackbackWidget_API.csproj", "{F967C6CA-C301-468C-8CD4-072F38E2578A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F967C6CA-C301-468C-8CD4-072F38E2578A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F967C6CA-C301-468C-8CD4-072F38E2578A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F967C6CA-C301-468C-8CD4-072F38E2578A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F967C6CA-C301-468C-8CD4-072F38E2578A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BFFE6E-492B-4B63-BEAD-BFE5CD6AC5A0}
+	EndGlobalSection
+EndGlobal
